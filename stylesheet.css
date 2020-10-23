@@ -1,0 +1,32 @@
+.clock {
+    align-items: right;
+    display: flex;
+    background-color:rgba(0, 0, 0, 0.5);
+    border: none;
+    /* border-radius: 20% 0% 0% 20%; */
+    float: right;
+    font-size: 0.8em;
+    margin: 1px;
+    max-width: 50em;
+    text-align: right;
+    font-family: 'Rubik', sans-serif;
+    
+}
+ 
+.date {
+    color: #fff;
+    margin-right: 5%;
+    margin-left: 0%;
+    -webkit-text-stroke: 0.75px #000;
+}
+
+.time {
+    color: #fff;
+    margin-right: 5%;
+    margin-left: 7%;
+    -webkit-text-stroke: 0.75px #000;
+}
+
+body {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/3d/Flinthook_animated_gameplay_-_level_start.gif);
+}
